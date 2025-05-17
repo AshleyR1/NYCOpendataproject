@@ -5,19 +5,45 @@
     <script src="script.js"></script>
   <head>
     <style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://pixelz.cc/wp-content/uploads/2018/12/new-york-cityscape-uhd-4k-wallpaper.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background: transparent;
+}
+
 
 
     </style>
 </head>
 <body>
-<div class="banner">
+<div class="image">
+  <div class="text">
+    <h1 style="font-size:50px; background: transparent;">NYC Leading causes of death</h1>
+    <h3 style=" background: transparent"> HomePage</h3>
 
- <h1 style= "color:white,">NYC Leading causes of death</h1>
-
+  </div>
 </div>
-
    
-    <h3>homepage</h3>
+
 <nav>
    <a href="home.html">home</a>
       <a href="filterdata.html">data</a>
