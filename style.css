@@ -1,0 +1,11 @@
+.banner{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+   rgba(0, 0, 0, 0.5)),url("https://i.pinimg.com/1200x/e4/f0/36/e4f0367e0ed1bad05ffe449b97387a43.jpg") ;
+height:70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
