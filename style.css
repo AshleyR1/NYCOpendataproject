@@ -12,11 +12,13 @@ nav a {
 	text-decoration:none;
 }
 nav{
+  position:sticky;
+
   padding:5px;
   display:flex;
 }
 .banner{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+  background-image: linear-gradient(rgba(21, 24, 24, 0),
    rgba(0, 0, 0, 0.5)),url("https://i.pinimg.com/1200x/e4/f0/36/e4f0367e0ed1bad05ffe449b97387a43.jpg") ;
 height:70%;
   background-position: center;
